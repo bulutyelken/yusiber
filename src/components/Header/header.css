@@ -1,0 +1,21 @@
+.header {
+  background-color: #060505;
+  display: flex;
+  gap: 4rem;
+  justify-content: center;
+  align-items: center;
+  font-family: "Overpass Mono", monospace;
+  font-weight: 500;
+  padding: 1.6rem 0.8rem;
+  font-size: 1.2rem;
+}
+.header a {
+  text-decoration: none;
+  color: #9AF49E;
+}
+.header a:first-child {
+  text-transform: uppercase;
+}
+.header a:is(:not(:first-child)) {
+  text-transform: capitalize;
+}/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@400;500&family=Poppins:wght@400;500&display=swap");
+@import url("../src/style-variable/style-variables.style.scss");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}/*# sourceMappingURL=index.css.map */

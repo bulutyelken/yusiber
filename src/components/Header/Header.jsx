@@ -1,17 +1,14 @@
-import React from 'react'
-import './header.scss'
-import yusiber from "../../assets/yusibersb.png"
+import React from "react";
+import "./header.scss";
 
 function Header() {
-    return (
-        <div className='header'>
-            <img className='logo' src={yusiber} alt="logo" />
-            <div className='buttons'>
-                <button className='headerbtn'>Hakkımızda</button>
-                <button className='headerbtn'>Blog</button>
-                <button className='headerbtn'>İletişim</button>
-            </div>
-        </div>
-    )   
+  return (
+    <div className="header">
+      <a href="#">quiz</a>
+      <a href="#">hakkımızda</a>
+      <a href="#">blog</a>
+      <a href="#">iletişim</a>
+    </div>
+  );
 }
 export default Header;
