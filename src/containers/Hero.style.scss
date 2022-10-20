@@ -1,0 +1,66 @@
+@import '../style-variable/style-variables.style.scss';
+
+
+.hero{
+    background-color: $black-primary;
+    color: $green-primary;
+    display: flex;
+    flex-direction: row;
+    padding-top: 5rem;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: $overpass;
+    flex-wrap: wrap-reverse;
+    .input{
+        height: 3rem;
+        width: 20vw;
+        padding-left: 1rem;
+        border: none;
+        &::placeholder{
+            color: $form-text;
+        }
+        &:focus{
+            outline: none;
+        }
+        border-radius: 6px;
+        -webkit-border-radius: 6px;
+        -moz-border-radius: 6px;
+        -ms-border-radius: 6px;
+        -o-border-radius: 6px;
+    }
+
+    .hero_text{
+        display: flex;
+        flex-direction: column;
+        max-width: 34rem;
+
+        p{
+            &:first-child{
+                font-size: 3rem;
+                text-align: center;
+            }
+            &:is(:not(:first-child)){
+                font-size: 1.2rem;
+                font-family: $poppins;
+                font-weight: 200;
+                opacity: .8;
+            }
+        }
+        .baslayalim{
+            background-color: $green-primary;
+            color: $black-primary;
+            border: none;
+            text-align: center;
+            padding: 20px 0px;
+            margin-top: 30px;
+            font-family: $poppins;
+            font-weight: $medium;
+            font-size: 1.4em;
+            cursor: pointer;
+
+        }
+    }
+    .buyuk_logo{
+        height: 30rem;
+    }
+}
