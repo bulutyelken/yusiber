@@ -1,0 +1,10 @@
+@import '../../style-variable/style-variables.style.scss';
+
+section{
+    display: flex;    
+    justify-content: center;
+    .main{
+        width: 60vw;
+        height: 100vh;
+    }
+}

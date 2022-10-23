@@ -1,0 +1,8 @@
+section {
+  display: flex;
+  justify-content: center;
+}
+section .main {
+  width: 60vw;
+  height: 100vh;
+}/*# sourceMappingURL=Question.style.css.map */

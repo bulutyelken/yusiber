@@ -1,0 +1,145 @@
+@import '../../style-variable/style-variables.style.scss';
+
+.section{
+    display: flex;
+    flex-direction: column;
+    font-family: $overpass;
+    color: $green-primary;
+        .maindiv{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+            .texts{
+                display: flex;
+                flex-direction: column;
+                width: 60%;
+                text-align: center;
+                h1{
+                    font-size: 1.7rem;
+                    font-weight: 700;
+                    margin: 0 2px;
+                    letter-spacing: 2px;
+                }
+                .buttons{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    gap: 1rem;
+                    a{
+                        font-family: $poppins !important;
+                        background-color: $green-primary;
+                        color: $black-primary;
+                        border: none;
+                        text-align: center;
+                        padding: 20px 0px;
+                        font-family: $poppins;
+                        font-weight: $medium;
+                        font-size: 1.4em;
+                        cursor: pointer;
+                        text-decoration: none;
+                        width: 40%;
+                        transition: 0.1s;
+                        -webkit-transition: 0.1s;
+                        -moz-transition: 0.1s;
+                        -ms-transition: 0.1s;
+                        -o-transition: 0.1s;
+                        &:hover{
+                            background-color: $black-primary;
+                            color: $green-primary;
+                        }
+                    }
+                }
+            }
+            .mail{
+                display: flex;
+                flex-direction: column;
+                font-family: $overpass;
+                margin-top: 2rem;
+                min-height: 50vh;
+                width: 100%;
+                background-color: white;
+                border-radius: 3px;
+                -webkit-border-radius: 3px;
+                -moz-border-radius: 3px;
+                -ms-border-radius: 3px;
+                -o-border-radius: 3px;
+                .avatar{
+                    background-color: rgb(7, 129, 88);
+                    height: 50px;
+                    width: 50px;
+                    border-radius: 50%;
+                    -webkit-border-radius: 50%;
+                    -moz-border-radius: 50%;
+                    -ms-border-radius: 50%;
+                    -o-border-radius: 50%;
+                    margin: 0px 10px;
+                    padding-top: 4px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    span{
+                        color: white;
+                        font-size: 26px;
+                    }
+                }
+                .mail_header{
+                    display: flex;
+                    flex-direction: row;
+                    margin-top: 16px;
+                    position: relative;
+                    .sender{
+                        color: black;
+                        font-family: $overpass;
+                        font-weight: 500;
+                        margin-top: 14px;
+                    }
+                    .sendermail{
+                        color: #c5c5c5;
+                        font-size: 0.9rem;
+                        margin-left: 6px;
+                    }
+                    .flex_row{
+                        .bana{
+                        font-weight: 500;
+                        color: rgb(175, 175, 175);
+                        font-size: 0.9rem;
+                        }
+                        .arrowdiv{
+                            cursor: pointer;
+                            margin-left: 2px;
+                            height: 18px;
+                            border: 1px solid rgb(183, 183, 183);
+                            border-radius: 2px;
+                            -webkit-border-radius: 2px;
+                            -moz-border-radius: 2px;
+                            -ms-border-radius: 2px;
+                            -o-border-radius: 2px;
+                        }
+                    }
+                    .saat{
+                        position: absolute;
+                        right: 10px;
+                        color: rgb(186, 186, 186);
+                    }
+                }
+            }
+            .content{
+                margin-top: 20px;
+                text-align: center;
+                color: black;
+
+            }
+            
+            
+        }
+}
+
+.flex_column{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex_row{
+    display: flex;
+    flex-direction: row;
+}

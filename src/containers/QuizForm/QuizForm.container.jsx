@@ -8,7 +8,7 @@ export default function QuizForm() {
             <h2>Skorunuzu kaydetmek için birkaç bilgiye ihtiyacımız var</h2>
             <input type={'text'} placeholder="Adınız" />
             <input type={'email'} placeholder="E-Mailiniz" />
-            <a href="/#">Başla</a>
+            <a href="/question">Başla</a>
         </div>
     </section>
   )
