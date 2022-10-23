@@ -6,7 +6,7 @@ function Header() {
     <div className="header">
       <a href="/#">quiz</a>
       <a href="/#">hakkımızda</a>
-      <a href="/#">blog</a>
+      <a href="https://dev.to/yusiber" target="__blank">blog</a>
       <a href="/#">iletişim</a>
     </div>
   );
