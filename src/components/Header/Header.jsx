@@ -1,13 +1,15 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./header.scss";
 
 function Header() {
   return (
     <div className="header">
-      <a href="/#">quiz</a>
-      <a href="/#">hakkımızda</a>
-      <a href="https://dev.to/yusiber" target="__blank">blog</a>
-      <a href="/#">iletişim</a>
+      <Link to="/">ana sayfa</Link>
+      <Link to="/hakkimizda">hakkımızda</Link>
+      <a href="http://dev.to/yusiber" target="_blank" rel="noreferrer">
+        blog
+      </a>
     </div>
   );
 }
